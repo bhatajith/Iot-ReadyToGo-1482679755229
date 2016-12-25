@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Iot-ReadyToGo
+  host: Iot-ReadyToGo
+  disk_quota: 1024M
+  services:
+  - Iot-ReadyToGo-cloudantNoSQLDB
+  - Iot-ReadyToGo-iotf-service
